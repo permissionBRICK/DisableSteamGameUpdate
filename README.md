@@ -33,7 +33,9 @@ Once an update arrives, run
 
 This will automatically fix the manifest files to the newest versions for all games that you have enabled blocking for, making steam think the games are up-to-date again. It will not take effect until you restart steam.
 
-If the command fails because of some steamcmd error, you possibly need to first rum steamcmd login Username Password to authenticate steamcmd.
+If the command fails because of some steamcmd error, you possibly need to first run 
+
+> steamcmd login Username Password to authenticate steamcmd.
 
 If you wish to update the game again, run
 
