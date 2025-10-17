@@ -512,6 +512,7 @@ def main():
     ap.add_argument("--disable", metavar="APPID",
                     help="Restore appmanifest_<APPID>.acf from .acf.bak (deletes current .acf).")
     ap.add_argument("--branch", default="public", help="Steam branch to track (default: public)")
+    ap.add_argument("--kill-steam", action="store_true", help="Steam branch to track (default: public)")
     ap.add_argument("--steamcmd", default="steamcmd", help="Path to steamcmd executable (default: found in PATH)")
     ap.add_argument("--username", default="anonymous", help="Steam username (default: anonymous)")
     ap.add_argument("--password", default=None, help="Steam password (use only if needed)")
@@ -541,8 +542,9 @@ def main():
 
     def app_manifest_path_for(appid: str) -> Path:
         return steamapps / f"appmanifest_{appid}.acf"
-      
-    os.system("taskkill.exe /F /IM steam.exe")
+    
+    if args.kill_steam:
+        os.system("taskkill.exe /F /IM steam.exe")
             
     # AUTO MODE
     if args.auto:
