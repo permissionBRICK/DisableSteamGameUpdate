@@ -13,7 +13,7 @@ Download the block_game_update.py and place it in an empty folder somewhere on y
 
 Download [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) and place the exe in the same folder.
 
-open cmd.exe, navigate to that folder and launch steamcmd one to initialize it.
+open cmd.exe, navigate to that folder and launch steamcmd once to initialize it.
 
 then run 
 
