@@ -36,6 +36,7 @@ This will automatically fix the manifest files to the newest versions for all ga
 If the command fails because of some steamcmd error, you possibly need to first run 
 
 > steamcmd
+> 
 > login Username Password to authenticate steamcmd.
 
 If you wish to update the game again, run
