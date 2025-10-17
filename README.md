@@ -31,7 +31,7 @@ Once an update arrives, run
 
 > python .\block_game_update --auto
 
-This will automatically fix the manifest files to the newest versions for all games that you have enabled blocking for. It will not take effect until you restart steam.
+This will automatically fix the manifest files to the newest versions for all games that you have enabled blocking for, making steam think the games are up-to-date again. It will not take effect until you restart steam.
 
 If you wish to update the game again, run
 
