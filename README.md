@@ -31,9 +31,7 @@ Once an update arrives, run
 
 > python .\block_game_update --auto
 
-This will automatically fix the manifest files to the newest versions for all games that you have enabled blocking for.
-
-**Warning: The Auto command, as well as the regular command via --appid will kill steam.exe if it is running, to avoid steam from changing the manifest once the readonly flag is removed. If you want to avoid corrupting downloads, either close steam or make sure no downloads or games are running when you run this command.**
+This will automatically fix the manifest files to the newest versions for all games that you have enabled blocking for. It will not take effect until you restart steam.
 
 If you wish to update the game again, run
 
