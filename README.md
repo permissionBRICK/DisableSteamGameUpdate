@@ -37,7 +37,9 @@ If the command fails because of some steamcmd error, you possibly need to first 
 
 > steamcmd
 > 
-> login Username Password to authenticate steamcmd.
+> login Username Password
+
+to authenticate steamcmd.
 
 If you wish to update the game again, run
 
