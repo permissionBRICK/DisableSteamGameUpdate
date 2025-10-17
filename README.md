@@ -9,6 +9,8 @@ The main purpose for this is for Game installations with heavy Mods that would o
 
 ## Usage
 
+Download and install Python. (Duh)
+
 Download the block_game_update.py and place it in an empty folder somewhere on your pc
 
 Download [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) and place the exe in the same folder.
